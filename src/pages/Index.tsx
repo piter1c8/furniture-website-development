@@ -6,6 +6,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import Icon from "@/components/ui/icon";
+import CityLinks from "@/components/CityLinks";
 import { useState } from "react";
 
 const Index = () => {
@@ -329,6 +330,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Cities Section */}
+      <CityLinks />
 
       {/* Contact Form */}
       <section id="contact" className="py-20 bg-gradient-to-br from-primary/5 to-cream/20">
